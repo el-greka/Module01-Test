@@ -6,6 +6,7 @@
 .logo {
   margin-right: 50px;
   text-decoration: none;
+  padding: 5px 15px;
 }
 ul {
   display: flex;
@@ -14,7 +15,8 @@ ul {
   margin: 0;
 }
 ul > li {
-  margin-right: 10px;
+  /* margin-right: 10px; */
+  margin: 30px;
 }
 .box {
   display: flex;
@@ -23,8 +25,10 @@ ul > li {
   border-bottom: 1px solid #000;
 }
 .aside {
-  border-right: 1px solid #000;
-  padding-right: 20px;
+  /* border-right: 1px solid #000; */
+  /* padding-right: 20px; */
+  padding: 10px 20px;
+  background-color: lavender;
 }
 .post {
   padding-bottom: 20px;
@@ -34,14 +38,20 @@ body {
 }
 header {
   font-size: 20px;
+  margin-top: 10px;
+  padding: 20px;
+  align-items: center;
 }
 footer {
   font-size: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .logo {
   color: lightgreen;
   background-color: rebeccapurple;
   font-weight: 700;
+  padding: 5px 15px;
 }
 a {
   color: rebeccapurple;
@@ -54,4 +64,9 @@ h {
 }
 body {
   line-height: 1.5;
+}
+section {
+  background-color: lavender;
+  padding: 5px 20px;
+  margin-bottom:  20px;
 }
